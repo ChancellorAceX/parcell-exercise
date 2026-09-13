@@ -1,0 +1,11 @@
+I honestly  haven't had much experience dealing with ASP.net / ASPX frameworks until today.... so this was a learning experience for me! lol
+
+That being said, I learned quickly that when I make a http GET request I get the raw HTML as a response, and nothing seemed to be in the JSON. So I figured that the raw data was all handled on the back end and the HTML was the best I was going to get to work with.
+
+So from there I recognized the two main things I'd need to grab from that (after looking at the code and links) were the file id and the organization/agency names. That was just a matter of using regex for both.
+
+After that, I had to figure out the URL endpoint for the download links. Honestly, it probably would have been easier if I had more aspx experience, but I eventually figured it out and got the correct url format.
+
+From there it was just a matter of formatting the IDs since in the html the A's are #'s, but that's a quick replace through the list after they're grabbed. Then stick them into a string combine and voila.
+
+Biggest hiccup for me in all of this was figuring out the download link format to be honest. And I'm not sure if this is a standard format for an ASPX file download link. But that alone was the only real hangup I had. I actually already have most of everything setup for assigning the agency to the URL as well once I count how many files are with each. I'm probably going to go ahead and do that myself anyway just because I feel like the project is unfinished otherwise. But I have a Sample Result of my work as of the time limit. I'll also try to separate the work I do after time limit from the work before so that you know the difference.
